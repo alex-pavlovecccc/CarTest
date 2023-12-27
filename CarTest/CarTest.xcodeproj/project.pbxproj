@@ -84,15 +84,31 @@
 		E2039E312B3B0EC2005B8842 /* CarTest */ = {
 			isa = PBXGroup;
 			children = (
+				E273DCDF2B3B1C6D00C486F0 /* Resource */,
+				E273DCDE2B3B1C5800C486F0 /* Core */,
 				E284B99D2B3B146800091DE7 /* Module */,
 				E284B99A2B3B124E00091DE7 /* Model */,
-				E2039E322B3B0EC2005B8842 /* AppDelegate.swift */,
-				E2039E342B3B0EC2005B8842 /* SceneDelegate.swift */,
-				E2039E3B2B3B0EC4005B8842 /* Assets.xcassets */,
 				E2039E3D2B3B0EC4005B8842 /* LaunchScreen.storyboard */,
 				E2039E402B3B0EC4005B8842 /* Info.plist */,
 			);
 			path = CarTest;
+			sourceTree = "<group>";
+		};
+		E273DCDE2B3B1C5800C486F0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E2039E342B3B0EC2005B8842 /* SceneDelegate.swift */,
+				E2039E322B3B0EC2005B8842 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E273DCDF2B3B1C6D00C486F0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E2039E3B2B3B0EC4005B8842 /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		E284B9972B3B11FC00091DE7 /* CarCollectionViewController */ = {
