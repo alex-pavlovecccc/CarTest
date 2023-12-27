@@ -15,7 +15,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         self.window = UIWindow(windowScene: windowScene)
-        self.window?.rootViewController = CarCollectionViewController()
+        
+        let navigationController = UINavigationController()
+        let coordinator = AppCoordinator(navigationController: navigationController)
+        
+        coordinator.start()
+        
+        self.window?.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
     }
 }

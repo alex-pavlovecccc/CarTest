@@ -12,6 +12,8 @@
 		E2039E352B3B0EC2005B8842 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2039E342B3B0EC2005B8842 /* SceneDelegate.swift */; };
 		E2039E3C2B3B0EC4005B8842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2039E3B2B3B0EC4005B8842 /* Assets.xcassets */; };
 		E2039E3F2B3B0EC4005B8842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2039E3D2B3B0EC4005B8842 /* LaunchScreen.storyboard */; };
+		E223FD2F2B3C644A008B05C4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223FD2E2B3C644A008B05C4 /* Coordinator.swift */; };
+		E223FD312B3C6588008B05C4 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223FD302B3C6588008B05C4 /* AppCoordinator.swift */; };
 		E284B9992B3B124400091DE7 /* CarCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E284B9982B3B124400091DE7 /* CarCollectionViewController.swift */; };
 		E284B99C2B3B127600091DE7 /* CarCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E284B99B2B3B127600091DE7 /* CarCollectionViewModel.swift */; };
 		E284B99F2B3B14A300091DE7 /* CarCollectionViewControllerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E284B99E2B3B14A300091DE7 /* CarCollectionViewControllerConfigurator.swift */; };
@@ -28,6 +30,8 @@
 		E2039E3B2B3B0EC4005B8842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2039E3E2B3B0EC4005B8842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2039E402B3B0EC4005B8842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E223FD2E2B3C644A008B05C4 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E223FD302B3C6588008B05C4 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		E284B9982B3B124400091DE7 /* CarCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCollectionViewController.swift; sourceTree = "<group>"; };
 		E284B99B2B3B127600091DE7 /* CarCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCollectionViewModel.swift; sourceTree = "<group>"; };
 		E284B99E2B3B14A300091DE7 /* CarCollectionViewControllerConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCollectionViewControllerConfigurator.swift; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 		E2039E312B3B0EC2005B8842 /* CarTest */ = {
 			isa = PBXGroup;
 			children = (
+				E223FD2D2B3C6432008B05C4 /* Coordinator */,
 				E273DCDF2B3B1C6D00C486F0 /* Resource */,
 				E273DCDE2B3B1C5800C486F0 /* Core */,
 				E284B99D2B3B146800091DE7 /* Module */,
@@ -92,6 +97,15 @@
 				E2039E402B3B0EC4005B8842 /* Info.plist */,
 			);
 			path = CarTest;
+			sourceTree = "<group>";
+		};
+		E223FD2D2B3C6432008B05C4 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E223FD2E2B3C644A008B05C4 /* Coordinator.swift */,
+				E223FD302B3C6588008B05C4 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		E273DCDE2B3B1C5800C486F0 /* Core */ = {
@@ -263,8 +277,10 @@
 				E284B9A22B3B15D800091DE7 /* CarCollectionViewCell.swift in Sources */,
 				E284B99C2B3B127600091DE7 /* CarCollectionViewModel.swift in Sources */,
 				E2039E332B3B0EC2005B8842 /* AppDelegate.swift in Sources */,
+				E223FD312B3C6588008B05C4 /* AppCoordinator.swift in Sources */,
 				E2039E352B3B0EC2005B8842 /* SceneDelegate.swift in Sources */,
 				E284B9992B3B124400091DE7 /* CarCollectionViewController.swift in Sources */,
+				E223FD2F2B3C644A008B05C4 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
